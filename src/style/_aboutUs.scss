@@ -1,0 +1,31 @@
+.aboutUsContent {
+  padding: 2rem 1rem;
+}
+
+.h1AboutUs {
+  font-size: 1.8rem;
+  font-weight: bolder;
+  padding: 1em;
+  text-align: center;
+}
+
+.p_h1AboutUs {
+  padding: 1.5em;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.aboutUsImageDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.aboutUsImg {
+  width: 50%;
+  max-width: 600px;
+  padding: 1em;
+  border-radius: 1em;
+}

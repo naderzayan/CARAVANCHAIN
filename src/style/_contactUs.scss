@@ -1,0 +1,64 @@
+.mainOfContactUs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: orangered;
+    height: 100vh;
+
+    h1 {
+        font-size: larger;
+        font-weight: bolder;
+        padding: 1em;
+        color: #fff;
+    }
+
+    p {
+        padding: .5em;
+        color: #fff;
+    }
+
+    label {
+        padding: .5em;
+        color: #fff;
+    }
+    span {
+        color: red;
+    }
+    input {
+        width: 70%;
+        height: 2.5em;
+        border: 2.5px solid orange;
+        border-radius: 1em;
+        padding: 1em;
+    }
+
+    .textMessage {
+        height: 6em;
+    }
+
+    .sendEmail {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 50%;
+        margin: 0 auto;
+        border-radius: 1em;
+        padding: 1.5em;
+        background-color: orange;
+    }
+    .sendEmailBtn {
+        padding: 1em;
+        > button {
+            background-color: #000;
+            border: 2px solid #fff;
+            color: #fff;
+        }
+        > button:hover {
+            background-color: #fff;
+            border: 1px solid #000;
+            color: #000;
+        }
+    }
+}

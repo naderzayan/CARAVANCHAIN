@@ -1,0 +1,49 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
+  padding: 1em;
+  background-color: #0e425e;
+  .logoOfCompany {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
+    height: 50px;
+    width: 50px;
+  }
+  h5 {
+    color: #fff;
+  }
+  .navbar a {
+    position: relative;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    color: #fff;
+    text-align: left;
+  }
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  a::before {
+    content: " ";
+    width: 0;
+    position: absolute;
+    left: 0;
+    height: 3px;
+    background-color: #f28e24;
+    bottom: -7px;
+    transition: 0.5s;
+  }
+  a:hover::before {
+    width: 100%;
+  }
+  a:hover {
+    color: orange;
+  }
+}

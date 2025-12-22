@@ -1,0 +1,53 @@
+.mainOfFooter {
+  display: flex;
+  justify-content: space-around;
+  padding: 1em;
+  gap: 1.5em;
+  background-color: #00263b;
+  color: #fff;
+  .logoOfCompany {
+    display: flex;
+    align-items: center;
+  }
+  .logo {
+    height: 50px;
+    width: 50px;
+  }
+  .title {
+    font-size: larger;
+    font-weight: bolder;
+    padding: .3em;
+  }
+  .titlesvg > svg {
+    color: orangered;
+  }
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  a:hover {
+    color: orangered;
+  }
+  .Social {
+    display: flex;
+    justify-content: center;
+    gap: 0.5em;
+  }
+  .twitter {
+    color: #000;
+  }
+  .facebook {
+    color: blue;
+  }
+  .instagram {
+    color: rgb(255, 65, 74);
+  }
+  .telegram {
+    color: rgb(193, 193, 240);
+  }
+}

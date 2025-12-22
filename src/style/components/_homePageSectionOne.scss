@@ -1,0 +1,43 @@
+.mainOfHomePageSectionOne {
+  padding: 2em;
+
+  h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 2em;
+  }
+
+  .homePageSectionOne {
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    flex-wrap: wrap;
+  }
+
+  .PartOfTheSection {
+  background-color: #0e425e;
+    color: #fff;
+    padding: 2em;
+    width: 300px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    h3 {
+      font-size: 1.1rem;
+      font-weight: bold;
+      margin-bottom: 1em;
+    }
+
+    p {
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+
+    &:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    }
+  }
+}

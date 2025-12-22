@@ -1,0 +1,39 @@
+.header {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(/cargo-ship.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  object-fit: cover;
+  padding-left: 2em;
+  padding-top: 5em;
+  color: #fff;
+  font-size: xx-large;
+}
+.header h1 {
+  font-size: 80px;
+}
+
+button {
+  padding: 0.6em;
+  border-radius: 0.5em;
+  border: none;
+  background-color: orange;
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+}
+
+button:hover {
+  background-color: orangered;
+  a {
+    color: #000;
+  }
+}
