@@ -32,7 +32,11 @@ export default function AboutUs() {
       </section>
 
       <section className="aboutUsImageDiv">
-        <img src="/internationalShipping.jpg" alt="" className="aboutUsImg" />
+        <img
+          src="/internationalShipping.jpg"
+          alt="International Shipping"
+          className="aboutUsImg"
+        />
       </section>
 
       <Footer />

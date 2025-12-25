@@ -17,15 +17,15 @@
 }
 
 .aboutUsImageDiv {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 2rem 0;
+  width: 50%;
+  max-width: 600px;
+  margin: 2rem auto;
+  border-radius: 1em;
+  overflow: hidden;
 }
 
 .aboutUsImg {
-  width: 50%;
-  max-width: 600px;
-  padding: 1em;
-  border-radius: 1em;
+  width: 100%;
+  height: auto;
+  display: block;
 }
