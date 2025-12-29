@@ -34,7 +34,7 @@ export default function Footer() {
           <NavLink to="/home"> <FaHome /> Home</NavLink>
           <NavLink to="/about_us"> <IoInformationCircleOutline /> AboutUs</NavLink>
           <NavLink to="/services"> <GrServices /> Services</NavLink>
-          <NavLink to="contact_us"> <MdContactMail /> ContactUs</NavLink>
+          <NavLink to="/contact_us"> <MdContactMail /> ContactUs</NavLink>
         </ul>
       </div>
       <div>
