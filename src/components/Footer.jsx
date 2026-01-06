@@ -31,7 +31,7 @@ export default function Footer() {
       <div>
         <ul className="navigation">
           <p className="title">Navigation</p>
-          <NavLink to="/home"> <FaHome /> Home</NavLink>
+          <NavLink to="/home_Page"> <FaHome /> Home</NavLink>
           <NavLink to="/about_us"> <IoInformationCircleOutline /> AboutUs</NavLink>
           <NavLink to="/services"> <GrServices /> Services</NavLink>
           <NavLink to="/contact_us"> <MdContactMail /> ContactUs</NavLink>
